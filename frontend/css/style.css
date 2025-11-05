@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #fafafa;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #eaeaea;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+/* Feed Card */
+.card {
+  border: none;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+.card img {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+/* Buttons */
+.btn {
+  border-radius: 50px;
+}
+
+.btn-primary {
+  background-color: #0095f6;
+  border-color: #0095f6;
+}
+
+.btn-primary:hover {
+  background-color: #007ad9;
+  border-color: #007ad9;
+}
+
+.btn-outline-primary {
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+/* Comments */
+.comment-section {
+  background-color: #fafafa;
+  border-radius: 8px;
+  padding: 8px 10px;
+}
+
+.comment {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+/* Create Form */
+.create-container {
+  max-width: 480px;
+  margin: 60px auto;
+  background: #fff;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Login/Register */
+.auth-card {
+  max-width: 380px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.auth-logo {
+  font-weight: 700;
+  font-size: 26px;
+  color: #0095f6;
+}
+
+input, textarea {
+  border-radius: 8px !important;
+}
+
+.comment-input {
+  border-top-left-radius: 8px !important;
+  border-bottom-left-radius: 8px !important;
+}
+
+.btn-send-comment {
+  border-top-right-radius: 8px !important;
+  border-bottom-right-radius: 8px !important;
+}
+
+.swal2-popup {
+  border-radius: 12px !important;
+  font-family: 'Inter', sans-serif;
+}
+
+.swal2-confirm {
+  background-color: #0095f6 !important;
+  border: none !important;
+  border-radius: 50px !important;
+}
+
+.swal2-cancel {
+  border-radius: 50px !important;
+}

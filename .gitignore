@@ -1,0 +1,69 @@
+# =========================================
+# ⚙️  PHP & IDE configuration
+# =========================================
+
+# phpstorm project files
+.idea/
+# netbeans project files
+nbproject/
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# Mac DS_Store Files
+.DS_Store
+
+# =========================================
+# ⚙️  Dependencies & Build Files
+# =========================================
+
+# composer vendor dir
+/vendor/
+
+# composer itself is not needed
+composer.phar
+
+# phpunit itself is not needed
+phpunit.phar
+
+# local phpunit config
+/phpunit.xml
+
+# test outputs
+tests/_output/*
+tests/_support/_generated
+
+# vagrant
+/.vagrant
+
+# =========================================
+# ⚙️  Environment & runtime files
+# =========================================
+
+# Environment secrets
+.env
+.env.local
+.env.*.local
+
+# Cache, logs, runtime
+/runtime/
+/web/assets/
+
+# =========================================
+# 📁  Uploads (user-generated files)
+# =========================================
+
+# Ignore all uploaded files
+/web/uploads/*
+
+# But keep the folder itself so it exists on clone
+!web/uploads/
+!web/uploads/.gitkeep
+
+# =========================================
+# 🧩  Node (if used for FE assets)
+node_modules/
